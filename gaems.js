@@ -1,1 +1,1 @@
-<html><body>Hello<body><html>
+GOOD FUNNY GAMES
