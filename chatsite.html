@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <style>
+      #chat {
+        border: 1px solid black;
+        height: 200px;
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chat</h1>
+    <div id="chat"></div>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="message">Message:</label>
+      <input type="text" id="message" name="message">
+      <br>
+      <input type="submit" value="Send">
+    </form>
+    <script src="chat.js"></script>
+  </body>
+</html>
